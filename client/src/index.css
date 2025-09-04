@@ -16,3 +16,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.clip-custom-shape {
+  clip-path: polygon(min(12vw, 117px) 0, 100% 0, 100% 100%, 0 100%);
+}
