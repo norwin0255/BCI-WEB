@@ -1,7 +1,8 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
-  theme: {
+  theme: {    
     extend: {},
     keyframes: {
         loopRightDouble: {
@@ -10,7 +11,7 @@ module.exports = {
         },
       },
       animation: {
-        loopRightDouble: 'loopRightDouble 70s linear infinite',
+        loopRightDouble: 'loopRightDouble 20s linear infinite',
       },
   },
   plugins: [],
