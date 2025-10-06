@@ -1,8 +1,18 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
-  theme: {
+  theme: {    
     extend: {},
+    keyframes: {
+        loopRightDouble: {
+          '0%': { transform: 'translateX(0)' },
+          '100%': { transform: 'translateX(-50%)' }, // adjust for content width
+        },
+      },
+      animation: {
+        loopRightDouble: 'loopRightDouble 20s linear infinite',
+      },
   },
   plugins: [],
 }
